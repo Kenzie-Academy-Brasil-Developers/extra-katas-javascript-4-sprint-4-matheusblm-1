@@ -1,1 +1,32 @@
-/* você pode estilizar se quiser !!! */
+body{
+	background-color: #C1C1C1;
+	color: #004370;
+	font-family: 'Gowun Dodum', sans-serif;
+}
+h1{
+	text-align: center;
+}
+div{
+	margin: 30px;
+	word-break: break-all;
+	display: flex;
+	flex-direction: column;
+}
+
+span{
+	border: 1px solid black;
+	margin-top: 10px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+	span{
+		max-width: 400px;
+	}
+	body{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
