@@ -59,7 +59,7 @@ function kata8() {
     return lotrCitiesArray
 }   
 function kata9() {
-    let tirar = lotrCitiesArray.splice(6,2)
+    let tirar = lotrCitiesArray.splice(5,2)
     showResults(lotrCitiesArray,9)
     return lotrCitiesArray
 }
